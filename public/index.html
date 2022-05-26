@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AUTOPLAY launch</title>
+    <script src="https://frontend.dev.dreamshot.bg/launcher/main/main.js"></script>
+  </head>
+  <body>
+    <script>
+      window.onload = (event) => {
+        let config = {
+          params: {
+            autoplayUrl: "."
+          }
+        };
+
+        window.dream.launcher.launch(config);
+      };
+    </script>
+</html>

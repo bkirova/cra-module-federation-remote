@@ -1,0 +1,10 @@
+{
+  "extends": "@istanbuljs/nyc-config-typescript",
+  "all": true,
+  "include": ["src/**/*"],
+  "exclude": ["!autoplay/**/*"],
+  "sourceMap": false,
+  "instrument": false,
+  "excludeAfterRemap": true,
+  "reporter": ["html", "cobertura"]
+}

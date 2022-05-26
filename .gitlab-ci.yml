@@ -1,0 +1,4 @@
+include:
+  - project: "dreamshot/ci/configs"
+    ref: main
+    file: "/frontend/frontend-build-deloy.yml"

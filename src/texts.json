@@ -1,0 +1,12 @@
+{
+  "en": {
+    "translation": {
+      "LabelTotalRounds": "Total Rounds",
+      "LabelLossLimit": "Loss Limit",
+      "LabelMultiplier": "Stop on Multiplier",
+      "LabelStart": "Start",
+      "LabelStop": "Stop",
+      "LabelResume": "Resume"
+    }
+  }
+}
